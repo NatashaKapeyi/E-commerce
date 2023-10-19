@@ -1,0 +1,28 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary: black;
+    --secondary: rgb(255, 255, 255);
+    --awesome: hsl(135, 53%, 37%, .7);
+}
+.container { margin-block: 20px;
+    --numbOfRed: 123;
+    --numbOfOrange: 100;
+    --numbOfYellow: 18;
+    border-width: 5px 8px;
+    border-image: radial-gradient(120deg, var(--numbOfRed), var(--numbOfOrange), var(--numbOfYellow));
+}
+.logo{
+    display:block;
+    grid-template-rows: 20rem 1fr auto;
+}
+.logo>img{
+    width: 10rem;
+    aspect-ratio: 1/1;
+}
+
