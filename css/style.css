@@ -61,3 +61,17 @@ body.Home {
     aspect-ratio: 1/1;
     
 }
+header{
+    background-color: light grey;
+    padding: 0;
+    text-align: center;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+nav li{
+    display: inline-block;
+    margin: 10px;
+    color: ;
+}
