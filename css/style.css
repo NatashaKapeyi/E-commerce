@@ -10,11 +10,20 @@
     --secondary: rgb(255, 255, 255);
     --awesome: hsl(135, 53%, 37%, .7);
 }
+
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(7, 7, 7);
+    color: white;
+}
+
+
+
 body.Home {
     background-image: url(https://i.pinimg.com/originals/81/8b/16/818b16b143b6ad237483ad11c873b2cf.gif);
     background-repeat: no-repeat;
     background-position: 50% 30%;
-    background-size: cover;
+    background-size:cover;
 }
 .container { margin-block: 20px;
     --numbOfRed: 123;
@@ -26,7 +35,8 @@ body.Home {
 .logo img{
     display:block;
     grid-template-rows: 20rem 1fr auto;
-    background-color: transparent
+    background-color: transparent;
+
     
 }
 .logo>img{
@@ -57,21 +67,45 @@ body.Home {
     
 }
 .item>img{
-    width: 25rem;
+    width: 20rem;
     aspect-ratio: 1/1;
     
 }
-header{
-    background-color: light grey;
+header{ margin: auto;
     padding: 0;
-    text-align: center;
+    text-align:s;
+    position: relative;
+    color: black;
+
+
 }
-nav ul{
-    list-style: none;
-    padding: 0;
+
+
+body.About{
+    background-image: url(https://i.pinimg.com/564x/71/a3/8b/71a38bbcb372d82dac86a4d3190697d6.jpg);
+    background-repeat:no-repeat;
+    display: grid;
+    justify-content: space-around;
+    align-content: center;
+
+
+
 }
-nav li{
-    display: inline-block;
-    margin: 10px;
-    color: ;
+button{
+    color:#fff;
+    height: 10%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+    font-size: 0.5em;
+    transition: 0.3s;
+    cursor:grab;
+    background-color: black;
+}
+div.H2{
+    text-align:justify;
+    text-transform: capitalize;
+    font-size: 3.5em;
+    color: rgb(232, 6, 6);
+    margin: 0.5em 0;
+
 }
