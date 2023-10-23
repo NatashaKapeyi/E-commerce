@@ -22,8 +22,8 @@ body{
 body.Home {
     background-image: url(https://i.pinimg.com/originals/81/8b/16/818b16b143b6ad237483ad11c873b2cf.gif);
     background-repeat: no-repeat;
-    background-position: 50% 30%;
-    background-size:cover;
+    background-size:cover;;
+    background-position:top;
 }
 .container { margin-block: 20px;
     --numbOfRed: 123;
@@ -75,31 +75,48 @@ header{ margin: auto;
     padding: 0;
     text-align:s;
     position: relative;
-    color: black;
+    color: rgb(225, 9, 9);
 
-
+    background: RED;
+    height: 25vh;
+    position: relative;
+    overflow:hidden;
+    color:#000000;}
+header::before{
+content: '';
+position: absolute;
+top: 0;
+right: -30em;
+background: #000000;
+width: 75%;
+height: 260%;
+transform: rotate(70deg);
+z-index: 0;
 }
-
 
 body.About{
-    background-image: url(https://i.pinimg.com/564x/71/a3/8b/71a38bbcb372d82dac86a4d3190697d6.jpg);
+    background-image: url(https://i.pinimg.com/564x/82/8b/5b/828b5b6146b3a614ad716cdfe8c9b87a.jpg);
     background-repeat:no-repeat;
-    display: grid;
+    background-position: right ;
+    background-size:cover;
     justify-content: space-around;
     align-content: center;
+    
 
 
 
 }
-button{
+button {
     color:#fff;
     height: 10%;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border: none;
+    border:none;
     font-size: 0.5em;
     transition: 0.3s;
     cursor:grab;
     background-color: black;
+    border-radius: 0%;
+    
 }
 div.H2{
     text-align:justify;
@@ -107,5 +124,46 @@ div.H2{
     font-size: 3.5em;
     color: rgb(232, 6, 6);
     margin: 0.5em 0;
+    text-shadow:2px 2px #000000;
 
+}
+nav ul {
+    list-style-type: none;
+    padding:0;
+    display: inline-block;
+}
+nav ul li{
+    display: inline-block;
+    margin:0 0.5em
+}
+nav ul a{
+    font-size: 1.3em;
+    text-transform: uppercase;
+    color:#000000;  
+    position: relative;
+    text-decoration:none;
+
+}
+nav ul {
+    list-style-type: none;
+    padding:0;
+    display: inline-block;
+}
+div a{
+    color:red;
+    text-decoration: none;
+    text-shadow:2px 2px #fff9f9;
+}
+
+.center{
+    color: rgb(0, 0, 0);
+    text-align:center;
+    font-size: 2.4em;
+}
+.paragraph{
+    color: #000000;
+    text-align: center;
+    margin: 0.5em;
+    font-size: 0.8em;
+    text-transform: uppercase;
 }
