@@ -13,8 +13,8 @@
 
 body{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: rgb(7, 7, 7);
-    color: white;
+    background-color: rgb(240, 229, 229);
+    color: rgb(0, 0, 0);
 }
 
 
@@ -55,7 +55,7 @@ body.Home {
     aspect-ratio: 1/1;
 }
 @media screen and (max-width: 900px) {
-    body {
+    body,.Home,.About {
         background-color: blue;
     }
     .container {
@@ -107,11 +107,11 @@ body.About{
 
 }
 button {
-    color:#fff;
-    height: 10%;
+    color:#f8f6f6;
+    
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border:none;
-    font-size: 0.5em;
+    font-size: 1em;
     transition: 0.3s;
     cursor:grab;
     background-color: black;
@@ -153,6 +153,7 @@ div a{
     color:red;
     text-decoration: none;
     text-shadow:2px 2px #fff9f9;
+    font-size: 0.5em;
 }
 
 .center{
