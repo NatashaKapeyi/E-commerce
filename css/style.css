@@ -168,6 +168,10 @@ div a{
     margin: 0.5em;
     font-size: 0.8em;
     text-transform: uppercase;
+    width: 142px;
+  height: 50px;
+  padding: 20px;
+  border: 1px solid;
 }
 #copyTitle {
     position: fixed;
